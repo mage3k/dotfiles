@@ -30,6 +30,8 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
 
 NeoBundle 'posva/vim-vue'
+NeoBundle 'wellle/targets.vim'
+NeoBundle 'edsono/vim-matchit'
 
 " Required:
 call neobundle#end()
