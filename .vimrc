@@ -12,7 +12,9 @@ endif
 call plug#begin('~/.vim/bundle')
 
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
+Plug 'scrooloose/nerdcommenter'
 Plug 'raimondi/delimitmate'
+Plug 'yggdroot/indentLine'
 Plug 'w0ng/vim-hybrid'
 Plug 'altercation/vim-colors-solarized'
 Plug 'chriskempson/base16-vim'
@@ -23,6 +25,7 @@ Plug 'wellle/targets.vim'
 Plug 'edsono/vim-matchit'
 Plug 'kchmck/vim-coffee-script'
 Plug 'pangloss/vim-javascript'
+Plug 'lepture/vim-css'
 
 call plug#end()
 
@@ -57,6 +60,8 @@ let delimitMate_expand_cr=1
 let delimitMate_expand_space=1
 let delimitMate_balance_matchpairs=1
 
+let NERDTreeIgnore = ['\.swp$']
+
 syntax enable
 syntax on
 set background=dark
@@ -68,3 +73,4 @@ set noshowmode
 set ttimeoutlen=50
 let g:airline_theme='bubblegum'
 let g:airline_powerline_fonts=1
+let g:indentLine_color_term = 239
