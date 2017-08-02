@@ -1,19 +1,26 @@
 [alias]
-	ci = commit
-	st = status
-	br = branch
-	co = checkout
-[user]
+  ci = commit
+  st = status
+  br = branch
+  co = checkout
 [filter "media"]
-	required = true
-	clean = git media clean %f
-	smudge = git media smudge %f
+  required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
 [core]
-	editor = /usr/bin/vim
+  editor = /usr/bin/vim
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
 [user]
-	name = mage3k
-	email = loper.tt@gmail.com
+  name = mage3k
+  email = loper.tt@gmail.com
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
+[pager]
+  log = diff-highlight | less
+  diff = diff-highlight | less
