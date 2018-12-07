@@ -1,0 +1,17 @@
+{
+	"editor.tabSize": 2,
+	"workbench.editor.showIcons": false,
+  "workbench.iconTheme": "vs-minimal",
+	"window.titleBarStyle": "native",
+	"workbench.startupEditor": "none",
+	"workbench.activityBar.visible": false,
+	"workbench.colorCustomizations": {
+		"statusBar.background" : "#303030",
+		"statusBar.noFolderBackground" : "#222225",
+		"statusBar.debuggingBackground": "#511f1f"
+	},
+	"editor.scrollBeyondLastLine": false,
+	"workbench.statusBar.feedback.visible": false,
+	"editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+	"workbench.colorTheme": "Capo-Dark"
+}
